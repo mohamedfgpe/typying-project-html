@@ -1,0 +1,30 @@
+h1{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+h1::after{
+    content: '';
+    animation-name: typing;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes typing {
+    5%{content: 'a|';}
+    10%{content: 'ab|';}
+    20%{content: 'abd|';}
+    30%{content: ' abd |';}
+    40%{content: ' abd e|';}
+    50%{content: ' abd el|';}
+    60%{content: '  abd el |';}
+    70%{content: '  abd el f|';}
+    80%{content: '  abd el fa|';}
+    84%{content: '  abd el fat|';}
+    90%{content: '  abd el fatt|';}
+    100%{content: '  abd el fatth|';}
+
+
+
+    
+}
